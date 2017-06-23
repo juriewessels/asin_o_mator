@@ -1,6 +1,8 @@
 # Asin-O-Mator
 
 Always wanted to Asin-O-Mate your app? Now you can! Say hello to the Asin-O-Mator.
+<br\>
+The Asin-O-Mator scrapes and parses product data for a given Amazon ASIN.
 
 ## Installation
 
@@ -51,3 +53,10 @@ The Asin-O-Mator can raise the folling errors:
 `AsinOMator::ProductNotFoundError`: No product was found for the provided `asin`.
 
 `AsinOMator::MechanizerError`: The `Mechanize` gem, used for page scarping, returned a status code other than `200`, `301`, or `302`.
+
+
+#### Notes
+* The Asin-O-Matic :
+  * Uses the [`Mechanize`](https://github.com/sparklemotion/mechanize) gem to scrape Amazon pages for a given ASIN.
+  * Leverages the power of a data object using [`Virtus`](https://github.com/solnic/virtus) to extract product data from scraped page objects.
+  * Is well tested with [`RSpec`](https://github.com/rspec/rspec-rails) request specs and uses [`VCR`](https://github.com/vcr/vcr) to test against recorded Amazon page responses. The first time the specs are executed the response will be recorded. If no recordring are present the first spec execution will be slower due to response recording.

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['jurie@juriewessels.com']
 
   spec.summary       = 'A product data scaper.'
-  spec.description   = 'Gets and parses data by ASIN.'
+  spec.description   = 'Scrapes and parses product data for a given ASIN.'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
