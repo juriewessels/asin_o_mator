@@ -1,7 +1,7 @@
 # Asin-O-Mator
 
-Always wanted to Asin-O-Mate your app? Now you can! Say hello to the Asin-O-Mator.
-<br\>
+Always wanted to Asin-O-Mate your app? Now you can! Say hello to the Asin-O-Mator.  
+
 The Asin-O-Mator scrapes and parses product data for a given Amazon ASIN.
 
 ## Installation
